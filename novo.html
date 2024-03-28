@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Cadastro de Produtos</title>
+<link rel="icon" href="Imagens/lista.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Novo Produto</h1>
+	<form name="formProduto" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="quantidade" placeholder="Quantidade" class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="valor" placeholder="Valor" class="caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="botao1" onclick="validar()">
+	</form>
+	<script src= "script/validador.js"></script>
+</body>
+</html>
